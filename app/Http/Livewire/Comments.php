@@ -58,7 +58,8 @@ class Comments extends Component
         $createdComment = Comment::create(
             [
                 'body' => $this->newComment,
-                'user_id' => 1
+                // 'user_id' => 1,
+                'user_id' => 5
             ]
         );
 
